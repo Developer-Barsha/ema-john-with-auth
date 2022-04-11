@@ -1,0 +1,37 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 15px 10px;
+}
+.cart p{
+    font-size: 15px;
+    padding: 5px 0;
+}
+.cart h2{
+    padding-bottom: 30px;
+}
+.cart h4{
+    padding-top: 30px;
+}
+.clear-cart{
+    background-color: orangered;
+    padding: 10px 20px;
+    color: black;
+    width: 100%;
+    font-weight: 800;
+    border: 0;
+    border-radius: 5px;
+    display: inline;
+}
+.review-order{
+    background-color: orange;
+    padding: 10px 20px;
+    color: black;
+    width: 100%;
+    font-weight: 800;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 5px;
+    display: inline;
+}

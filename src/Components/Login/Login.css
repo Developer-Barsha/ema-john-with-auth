@@ -1,0 +1,72 @@
+.form-container{
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    box-shadow: -8px 8px rgba(255, 153, 0, 0.3);
+}
+
+.form-title{
+    color: #2A414F;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.input-group input{
+    height: 35px;
+    font-size: 18px;
+    width: 415px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    padding-left: 5px;
+}
+
+.input-group label{
+    display: block;
+    margin: 2px 3px;
+}
+
+.form-submit{
+    background-color: rgba(255, 153, 0, 0.3);
+    border: 0;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 18px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+.form-submit:hover{
+    background-color: rgba(255, 153, 0, 0.5);
+    transition: 0.5s;
+}
+
+.form-link{
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.google{
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: 20px 0;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+.google img{
+    width: 40px;
+    height: 40px;
+}

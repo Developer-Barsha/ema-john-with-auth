@@ -1,0 +1,35 @@
+.header{
+    background-color: #1C2B35;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 36px;
+    font-size: 17px;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: orange;
+    margin-left: 36px;
+    font-size: 17px;
+}
+.sign-out{
+    text-decoration: none;
+    color: white;
+    background-color: #1C2B35;
+    border: 0;
+    margin-left: 36px;
+    font-size: 17px;
+}
+.sign-out:hover{
+    text-decoration: none;
+    color: orange;
+    margin-left: 36px;
+    font-size: 17px;
+}
